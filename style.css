@@ -36,7 +36,7 @@ li a.active, li a:hover{
 }
 
 section.banner{
-    background: linear-gradient(to lef,rgb(255,255,255),rgb(234,243,240));
+    background: linear-gradient(to lef,rgb(255,255,255),rgb(243,243,240));
     padding: 3rem 0;
 }
 
@@ -44,11 +44,11 @@ section.banner{
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(20rem));
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
     grid-gap: 2rem;
 }
 
-.boxB col1{
+.col1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,6 +81,6 @@ h1{
     background: #840000;
     color: #fff;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     text-decoration: none;
 }
