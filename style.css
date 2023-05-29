@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #840000;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+li a.active, li a:hover{
+    background: orange;
+    transition: .5s;
+}
+
+section.banner{
+    background: linear-gradient(to lef,rgb(255,255,255),rgb(234,243,240));
+    padding: 3rem 0;
+}
+
+.containerB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem));
+    grid-gap: 2rem;
+}
+
+.boxB col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBanner{
+    width: 70%;
+}
+
+.col2{
+    padding: 1 rem 2 rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+    color: #840000;
+}
+
+#txtBanner{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.btnBanner{
+    background: #840000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
